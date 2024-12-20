@@ -30,20 +30,20 @@
     Create a BeautifulSoup Object: Use BeautifulSoup to parse the HTML and extract the weather data from the table.
 
     Extract Data: Store the following information in a Pandas DataFrame:
+    
+     * id: Identification number of a single transmission from the Curiosity rover.
+     
+     * terrestrial_date: Date on Earth.
+     
+     * sol: Number of Martian days since Curiosity landed.
+     
+     * ls: Solar longitude.
+     
+     * month: Martian month.
 
-        id: Identification number of a single transmission from the Curiosity rover.
+     * min_temp: Minimum temperature in Celsius.
 
-        terrestrial_date: Date on Earth.
-
-        sol: Number of Martian days since Curiosity landed.
-
-        ls: Solar longitude.
-
-        month: Martian month.
-
-        min_temp: Minimum temperature in Celsius.
-
-        pressure: Atmospheric pressure at Curiosity's location.
+     * pressure: Atmospheric pressure at Curiosity's location.
 
 3. Data Processing
 
